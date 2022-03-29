@@ -1,0 +1,30 @@
+.chart-container {
+    position: relative;
+    width: 80%;
+    height: 70vh;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.date-selection-input {
+    outline: none;
+    border: 1px solid teal;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
